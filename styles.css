@@ -1,0 +1,111 @@
+/* Whole page */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Header and footer */
+  header,
+  footer {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    height: 150px;
+    background-color: #141a1a;
+    background-image: url("cafe-counter.jpg");
+    background-size: cover;
+    color: white;
+  }
+  
+  /* Header H1 */
+  header h1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+  }
+  
+  /* Grid container */
+  #grid-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+  }
+  
+  /* Nav */
+  nav {
+    width: 150px;
+    margin-top: 16px;
+  }
+  
+  /* Nav list items */
+  nav li {
+    list-style: none;
+    text-align: center;
+  }
+  
+  /* Nav links */
+  nav a {
+    display: block;
+    padding: 16px;
+    margin: 8px auto;
+    background-color: #e0e5de;
+    color: #141a1a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Nav first link */
+  nav li:first-child a,
+  nav a:hover {
+    background-color: #f28095;
+  }
+  
+  /* Main */
+  main {
+    color: #542c1b;
+    padding-bottom: 16px;
+  }
+  
+  /* Main image */
+  main img {
+    float: left;
+  }
+  
+  /* Main paragraph and ul */
+  main p,
+  main ul {
+    display: inline-block;
+    width: 50%;
+  }
+  
+  /* Main paragraph */
+  main p {
+    margin-left: 32px;
+  }
+  
+  /* Main ul */
+  main ul {
+    margin-left: 16px;
+  }
+  
+  /* Address */
+  address {
+    clear: both;
+    padding-top: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    font-style: italic;
+    text-align: center;
+    background-color: #afaeb4;
+    padding: 8px 0;
+  }
+  
